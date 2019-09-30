@@ -9,7 +9,7 @@ class ArrayList{
         this.data.push(element);
     }
 
-    //Inserindo os paranaue
+    //Inserindo os paranaue 
 
     insert(position, element) {
         if(this.positionIsValid(position) || position==this.size()){
@@ -22,7 +22,7 @@ class ArrayList{
 
 
     //Removendo os paranaue
-    
+
     remove(element) {
         let index = this.search(element);
         if(index!=-1) return this.data.splice(index, 1);
